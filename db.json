@@ -36,31 +36,45 @@
     },
     {
       "email": "user2@test.tw",
-      "password": "$2a$10$gGqmpAlZdLsh.hiWtUQ0kuzb.koa.qs2ZyowB1GUaZ7KnJGW57t0G",
+      "password": "$2a$10$iIZg/PYQBd568CllAkaZGeHHY55WhOoZIRLOYEKHjP0V2Be8UXnLi",
       "is_Admin": false,
       "favorite": [],
       "id": 3
     },
     {
       "email": "user3@test.tw",
-      "password": "$2a$10$toRuZ05aRpYhdnn66ZGtTe0FDSyK6xtU.hG6E6KceVG4Mmc9ETSHe",
+      "password": "$2a$10$Si.D/nRFoQYAx2JbSl15z.d4qTrC3Ku4KnUWkXF0Csx062BKcBwHa",
       "is_Admin": false,
       "favorite": [],
       "id": 4
     },
     {
       "email": "user4@test.tw",
-      "password": "$2a$10$N6O.OByW1QHWX0hvRV4jRu28z0aXn0rqClWqaXcHh/1td3z.ZrZOW",
+      "password": "$2a$10$wFFU8vjEq3ICwVEUgrWoquYUdhbyJCnlJHPkaB5rDbknuM/Lj/6dO",
       "is_Admin": false,
       "favorite": [],
       "id": 5
     },
     {
       "email": "user5@test.tw",
-      "password": "$2a$10$FOEYYBc1Xl.3RERhXv0KfuzqzumaRvCiJFJKURaPxm6ZJOp8iQcQW",
+      "password": "$2a$10$r4yy8/trsaavhoq2Tk3W2OFPwD1R7jDAoJww8r5EInr.Y5WxCNx3G",
       "is_Admin": false,
       "favorite": [],
       "id": 6
+    },
+    {
+      "email": "user7@test.tw",
+      "password": "$2a$10$C0qWEMWtRuMZ/SJuZC2Un.5ju44ulFmg0b9ifjtod2Bkms05Q4K3e",
+      "is_Admin": false,
+      "favorite": [],
+      "id": 7
+    },
+    {
+      "email": "user8@test.tw",
+      "password": "$2a$10$.xzMQUrlbK7Sq0lI5aduOOnlxxfe8GPellyNcNUU4R9XVseD.GUCS",
+      "is_Admin": false,
+      "favorite": [],
+      "id": 8
     }
   ]
 }
