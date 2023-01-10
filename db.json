@@ -33,6 +33,34 @@
       "is_Admin": false,
       "favorite": [],
       "id": 2
+    },
+    {
+      "email": "user2@test.tw",
+      "password": "$2a$10$gGqmpAlZdLsh.hiWtUQ0kuzb.koa.qs2ZyowB1GUaZ7KnJGW57t0G",
+      "is_Admin": false,
+      "favorite": [],
+      "id": 3
+    },
+    {
+      "email": "user3@test.tw",
+      "password": "$2a$10$toRuZ05aRpYhdnn66ZGtTe0FDSyK6xtU.hG6E6KceVG4Mmc9ETSHe",
+      "is_Admin": false,
+      "favorite": [],
+      "id": 4
+    },
+    {
+      "email": "user4@test.tw",
+      "password": "$2a$10$N6O.OByW1QHWX0hvRV4jRu28z0aXn0rqClWqaXcHh/1td3z.ZrZOW",
+      "is_Admin": false,
+      "favorite": [],
+      "id": 5
+    },
+    {
+      "email": "user5@test.tw",
+      "password": "$2a$10$FOEYYBc1Xl.3RERhXv0KfuzqzumaRvCiJFJKURaPxm6ZJOp8iQcQW",
+      "is_Admin": false,
+      "favorite": [],
+      "id": 6
     }
   ]
 }

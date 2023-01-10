@@ -40,7 +40,7 @@
     <h1>登入/註冊</h1>
     <div class="row">
       <div class="col-sm-10 col-md-8 col-lg-6 col-xl-4 p-4 mx-auto border border-primary mt-4">
-        <form action="">
+        
           <div class="mb-6">
             <label for="user_email" class="mb-3">Email</label>
             <input type="email" class="mb-3" id="user_email">
@@ -57,7 +57,7 @@
               <button class="btn btn-primary w-100" id="register">註冊</button>
             </div>
           </div>
-        </form>
+        
       </div>
     </div>
   </div>
@@ -90,15 +90,15 @@
         "password": password.value
       })
       .then((res)=>{
-        console.log(res)
+        console.log(res.data)
       })
       .catch((err)=>{
         console.log(err.response)
       })
     }
 
-    document.querySelector("#register").addEventListener("click", register())
-    document.querySelector("#login").addEventListener("click", login())
+    document.querySelector("#register").addEventListener("click", register)
+    document.querySelector("#login").addEventListener("click", login)
 
     // document.querySelector("#register").addEventListener("click", function(){
     //   // console.log(email.value.trim(),password.value)
