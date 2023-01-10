@@ -39,10 +39,10 @@
     
     <div class="container mt-4">
       <h1>台灣景點</h1>
-      <div class="row">
+      <div class="row" id="attraction_list">
         <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 p-2">
-          <div class="border border-2 p-2 rounded-2">
-            <img src="" alt="">
+          <div class="border border-2 p-2 rounded-2 relative">
+            <img src="" alt="" class="w-100 d-block">
             <h5>景點</h5>
             <p>說明</p>
             <a href="./attraction.html">看更多</a>
@@ -51,7 +51,39 @@
       </div>
     </div>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.2.2/axios.min.js" integrity="sha512-QTnb9BQkG4fBYIt9JGvYmxPpd6TBeKp6lsUrtiVQsrJ9sb33Bn9s0wMQO9qVBFbPX3xHRAsBHvXlcsrnJjExjg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="all.js"></script>
+    <script src="./all.js"></script>
+    <script>
+      const attraction_list = document.querySelector("#attraction_list")
+      function getData(){
+        axios.get(`${api_path}/attractions`)
+        .then((res)=>{
+          console.log(res.data)
+          renderData(res.data)
+        })
+        .catch((err)=>{
+          console.dir(err)
+        })
+      }
+      function renderData(data){
+        let str='';
+        data.forEach(function(item){
+          str+= `
+          <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 p-2">
+          <div class="border border-2 p-2 rounded-2 relative h-100 d-flex flex-column">
+            <img src="${item.imgUrl}" alt="" class="w-100 d-block object-fit-cover" height="100px">
+            <h5>${item.title}</h5>
+            <p>${item.content}</p>
+            <a href="./attraction.html" data-id="${item.id}" class="mt-auto">看更多</a>
+          </div>
+        </div>
+          `
+        })
+        attraction_list.innerHTML = str
+      }
+
+      getData()
+    </script>
   </body>
   </html>

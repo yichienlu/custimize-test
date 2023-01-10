@@ -1,38 +1,38 @@
 {
-  "attractions":  [
+  "attractions": [
     {
-      "id":1,
-      "title":"鵝鑾鼻燈塔",
-      "content":"鵝鑾鼻燈塔是一座位於臺灣屏東縣恆春鎮墾丁國家公園鵝鑾鼻的燈塔。該燈塔一度被認定為台灣最南端的標誌也是照射距離最遠的燈塔，後被台灣最南點地標取代。最初落成於1883年，並經多次重修，1962年中華民國政府再重修改建其燈具設施。",
-      "imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Eluanbi_Lighthouse_02.jpg/640px-Eluanbi_Lighthouse_02.jpg"
+      "id": 1,
+      "title": "鵝鑾鼻燈塔",
+      "content": "鵝鑾鼻燈塔是一座位於臺灣屏東縣恆春鎮墾丁國家公園鵝鑾鼻的燈塔。該燈塔一度被認定為台灣最南端的標誌也是照射距離最遠的燈塔，後被台灣最南點地標取代。最初落成於1883年，並經多次重修，1962年中華民國政府再重修改建其燈具設施。",
+      "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Eluanbi_Lighthouse_02.jpg/640px-Eluanbi_Lighthouse_02.jpg"
     },
     {
-      "id":2,
-      "title":"清水斷崖",
-      "content":"清水斷崖是位於臺灣花蓮縣秀林鄉的海岸斷崖，是蘇花公路和仁（或和中）至崇德路段著名的旅遊景點。戰後曾被選為臺灣八景之一。",
-      "imgUrl":"https://up.wiki.hancel.org/wikipedia/commons/6/63/Qingshui_Cliff_under_blue_sky_on_3_December_2018.jpg"
+      "id": 2,
+      "title": "清水斷崖",
+      "content": "清水斷崖是位於臺灣花蓮縣秀林鄉的海岸斷崖，是蘇花公路和仁（或和中）至崇德路段著名的旅遊景點。戰後曾被選為臺灣八景之一。",
+      "imgUrl": "https://up.wiki.hancel.org/wikipedia/commons/6/63/Qingshui_Cliff_under_blue_sky_on_3_December_2018.jpg"
     },
     {
-      "id":3,
-      "title":"台北101",
-      "content":"台北101（英語：Taipei 101）是位於臺灣臺北市信義區的超高層摩天大樓，樓高509.2公尺，地上101層、地下5層，自落成以來即成為台北重要地標與觀光景點之一。其為台灣第一高樓、以及唯一一棟高度超過500公尺、樓層超過100層的建築物，曾於2004年12月1日至2010年1月7日間擁有世界第一高樓的紀錄。目前為世界第十一高樓（截至2022年），也是數一數二高的綠建築（LEED EBOM）。大樓內擁有全球第二大、全球唯二開放給遊客觀賞的巨型阻尼器。標高460公尺的101樓上方之觀景台為全球最高的戶外屋頂觀景步道。",
-      "imgUrl":"https://up.wiki.hancel.org/wikipedia/commons/thumb/0/02/Taipei_101_in_2019.jpg/360px-Taipei_101_in_2019.jpg"
+      "id": 3,
+      "title": "台北101",
+      "content": "台北101（英語：Taipei 101）是位於臺灣臺北市信義區的超高層摩天大樓，樓高509.2公尺，地上101層、地下5層，自落成以來即成為台北重要地標與觀光景點之一。其為台灣第一高樓、以及唯一一棟高度超過500公尺、樓層超過100層的建築物，曾於2004年12月1日至2010年1月7日間擁有世界第一高樓的紀錄。目前為世界第十一高樓（截至2022年），也是數一數二高的綠建築（LEED EBOM）。大樓內擁有全球第二大、全球唯二開放給遊客觀賞的巨型阻尼器。標高460公尺的101樓上方之觀景台為全球最高的戶外屋頂觀景步道。",
+      "imgUrl": "https://up.wiki.hancel.org/wikipedia/commons/thumb/0/02/Taipei_101_in_2019.jpg/360px-Taipei_101_in_2019.jpg"
     }
   ],
   "users": [
     {
-      "id":1,
-      "email":"admin@test.tw",
-      "password":"",
-      "admin": true,
-      "favorites":[]
+      "email": "admin@test.tw",
+      "password": "$2a$10$iIy.2CXIMyupSBWJskkUk.AkDrKKKCjMESAdP9QAlwt29iFDaAjW.",
+      "is_Admin": false,
+      "favorite": [],
+      "id": 1
     },
     {
-      "id":2,
-      "email":"user@test.tw",
-      "password":"",
-      "admin": false,
-      "favorites":[]
+      "email": "user@test.tw",
+      "password": "$2a$10$8prndZU3SRfr4NArt3VoBuYRIV2RLoqh3njP011GIRS/r7kQBwfZW",
+      "is_Admin": false,
+      "favorite": [],
+      "id": 2
     }
   ]
 }
